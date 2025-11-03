@@ -3,7 +3,7 @@
 #include "Triangle.hpp"
 #include "Light.hpp"
 #include "Renderer.hpp"
-
+ 
 // In the main function of the program, we create the scene (create objects and lights)
 // as well as set the options for the render (image width and height, maximum recursion
 // depth, field-of-view, etc.). We then call the render function().
