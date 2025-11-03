@@ -246,7 +246,7 @@ void Renderer::Render(const Scene& scene)
     float scale = std::tan(deg2rad(scene.fov * 0.5f));
     float imageAspectRatio = (float) scene.width / (float)scene.height;
 
-    // Use this variable as the eye position to start your rays.
+    // Use this variable as the eye position to start the rays.
     Vector3f eye_pos(0);
     int m = 0;
     for (int j = 0; j < scene.height; ++j)
